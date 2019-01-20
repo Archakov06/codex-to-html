@@ -18,6 +18,6 @@ $codex = new CodexToHtml([
     },
     'quote' => require_once(__DIR__ . '/templates/quote.php'),
     'embed' => require_once(__DIR__ . '/templates/embed.php'),
-], true);
+]);
 
 var_dump($codex->render($blocks));
