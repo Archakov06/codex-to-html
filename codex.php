@@ -10,16 +10,6 @@ class CodexToHtml {
         $this->beautify = $beautify;
     }
 
-    private function getData($block) {
-        switch ($block['type']) {
-            case 'paragraph':
-                return $block['data']['text'];
-            
-            default:
-                return '';
-        }
-    }
-
     public function render($blocks) {
         $result = [];
 
