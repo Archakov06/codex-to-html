@@ -1,12 +1,12 @@
 # Codex To HTML
 
-Класс для преобразования блочных компонентов от Codex Editor в HTML.
+Class for converting JSON-blocks EditorJS to HTML.
 
-## Как использовать?
+## How to use?
 
-Подключить PHP файл `codex.php` к своему скрипту. Создать экземпляр класса c заготовленными настройками на каждый блок и вызывать метод `render($blocks)`.
+Create an instance of the class with prepared settings for each block and call the `render` method  (put JSON-blocks).
 
-## Пример
+## Example
 
 ```php
 <?php
